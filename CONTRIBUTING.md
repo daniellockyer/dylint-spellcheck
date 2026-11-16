@@ -10,7 +10,7 @@ Install Rust through [rustup](https://rustup.rs/) and your platform's native lin
 git clone https://github.com/dblock/dylint-spellcheck.git
 cd dylint-spellcheck
 rustup show
-cargo +stable install cargo-dylint dylint-link --version 6.2.0 --locked
+cargo +stable install cargo-dylint dylint-link --version 6.4.0 --locked
 ```
 
 Rustup installs the nightly compiler and components pinned in `rust-toolchain.toml`. Run development commands from the repository root without `+stable` so they use that pinned toolchain; stable is used above only to install the Dylint tools.

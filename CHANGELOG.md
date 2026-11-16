@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- [#33](https://github.com/dblock/dylint-spellcheck/pull/33): Require Dylint 6.4.0, since 6.2.0 cannot build its driver after Clippy renamed its default branch to `main` - [@daniellockyer](https://github.com/daniellockyer).
+
 ## [0.1.0] - 2026-10-22
 
 ### Changed
