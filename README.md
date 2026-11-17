@@ -24,7 +24,7 @@ Checks Rust comments and Rustdoc attributes using bundled English and reports mi
 Install Rust through [rustup](https://rustup.rs/), then install Dylint:
 
 ```sh
-cargo +stable install cargo-dylint dylint-link --version 6.2.0 --locked
+cargo +stable install cargo-dylint dylint-link --version 6.4.0 --locked
 ```
 
 Add the released [v0.1.0](https://github.com/dblock/dylint-spellcheck/releases/tag/v0.1.0) library to your project's `Cargo.toml`:
